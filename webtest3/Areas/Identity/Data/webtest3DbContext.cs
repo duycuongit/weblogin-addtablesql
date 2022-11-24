@@ -5,12 +5,12 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using webtest3.Data;
+using webtest3.Areas.Identity.Data;
 using webtest3.Models;
 
 namespace webtest3.Data
 {
-    public class webtest3DbContext : IdentityDbContext<AppUser>
+    public class webtest3DbContext : IdentityDbContext<webtest3User>
     {
         public webtest3DbContext(DbContextOptions<webtest3DbContext> options)
             : base(options)
@@ -25,6 +25,6 @@ namespace webtest3.Data
             // Add your customizations after calling base.OnModelCreating(builder);
         }
 
-        public DbSet<TestGV> testGV { set; get; }
+        public DbSet <TestGV> testGV { get; set; }
     }
 }

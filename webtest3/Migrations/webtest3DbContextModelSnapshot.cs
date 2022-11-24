@@ -154,7 +154,7 @@ namespace webtest3.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("webtest3.Data.AppUser", b =>
+            modelBuilder.Entity("webtest3.Areas.Identity.Data.webtest3User", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
@@ -206,9 +206,6 @@ namespace webtest3.Migrations
                         .HasColumnType("nvarchar(256)")
                         .HasMaxLength(256);
 
-                    b.Property<string>("mssv")
-                        .HasColumnType("nvarchar(max)");
-
                     b.HasKey("Id");
 
                     b.HasIndex("NormalizedEmail")
@@ -248,7 +245,7 @@ namespace webtest3.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("webtest3.Data.AppUser", null)
+                    b.HasOne("webtest3.Areas.Identity.Data.webtest3User", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -257,7 +254,7 @@ namespace webtest3.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("webtest3.Data.AppUser", null)
+                    b.HasOne("webtest3.Areas.Identity.Data.webtest3User", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -272,7 +269,7 @@ namespace webtest3.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("webtest3.Data.AppUser", null)
+                    b.HasOne("webtest3.Areas.Identity.Data.webtest3User", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -281,7 +278,7 @@ namespace webtest3.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("webtest3.Data.AppUser", null)
+                    b.HasOne("webtest3.Areas.Identity.Data.webtest3User", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)

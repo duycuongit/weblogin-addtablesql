@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using webtest3.Areas.Identity.Data;
 using webtest3.Data;
 
 [assembly: HostingStartup(typeof(webtest3.Areas.Identity.IdentityHostingStartup))]
@@ -19,7 +20,7 @@ namespace webtest3.Areas.Identity
                     options.UseSqlServer(
                         context.Configuration.GetConnectionString("webtest3DbContextConnection")));
 
-                services.AddDefaultIdentity<AppUser>(options => options.SignIn.RequireConfirmedAccount = false)
+                services.AddDefaultIdentity<webtest3User>(options => options.SignIn.RequireConfirmedAccount = false)
                     .AddEntityFrameworkStores<webtest3DbContext>();
             });
         }

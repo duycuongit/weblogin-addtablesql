@@ -1,8 +1,8 @@
 ﻿@using Microsoft.AspNetCore.Identity
-@using webtest3.Data
+@using webtest3.Areas.Identity.Data
 
-@inject SignInManager<AppUser> SignInManager
-@inject UserManager<AppUser> UserManager
+@inject SignInManager<webtest3User> SignInManager
+@inject UserManager<webtest3User> UserManager
 
 <ul class="navbar-nav">
 @if (SignInManager.IsSignedIn(User))
