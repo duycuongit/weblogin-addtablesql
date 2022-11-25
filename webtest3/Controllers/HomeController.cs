@@ -27,7 +27,14 @@ namespace webtest3.Controllers
 
         public IActionResult Privacy()
         {
-            return View();
+            //return View();
+            return ViewComponent("MessagePage", new webtest3.Views.Shared.Components.MessagePage.MessagePage.Message
+            {
+                title = "Thông báo quan trọng",
+                htmlcontent = "Đây là <strong>Nội dung HTML</strong>",
+                secondwait = 5,
+                urlredirect = "/"
+            });
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

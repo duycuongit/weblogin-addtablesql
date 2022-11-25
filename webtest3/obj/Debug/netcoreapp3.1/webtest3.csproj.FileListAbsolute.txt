@@ -412,3 +412,4 @@ C:\Users\Duy Cuong\source\repos\webtest2\weblogin-addtablesql\webtest3\obj\Debug
 C:\Users\Duy Cuong\source\repos\webtest2\weblogin-addtablesql\webtest3\obj\Debug\netcoreapp3.1\webtest3.dll
 C:\Users\Duy Cuong\source\repos\webtest2\weblogin-addtablesql\webtest3\obj\Debug\netcoreapp3.1\webtest3.pdb
 C:\Users\Duy Cuong\source\repos\webtest2\weblogin-addtablesql\webtest3\obj\Debug\netcoreapp3.1\webtest3.genruntimeconfig.cache
+C:\Users\Duy Cuong\source\repos\webtest2\weblogin-addtablesql\webtest3\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\MessagePage\Default.cshtml.g.cs
