@@ -30,10 +30,10 @@ namespace webtest3.Controllers
             //return View();
             return ViewComponent("MessagePage", new webtest3.Views.Shared.Components.MessagePage.MessagePage.Message
             {
-                title = "Thông báo quan trọng",
+                title = "Thông báo quan trọng -  test component",
                 htmlcontent = "Đây là <strong>Nội dung HTML</strong>",
                 secondwait = 5,
-                urlredirect = "/"
+                urlredirect = "/Home/Index"
             });
         }
 
