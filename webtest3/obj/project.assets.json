@@ -9200,11 +9200,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Duy Cuong\\source\\repos\\webtest3\\webtest3\\webtest3.csproj",
+      "projectUniqueName": "C:\\Users\\Duy Cuong\\source\\repos\\webtest2\\weblogin-addtablesql\\webtest3\\webtest3.csproj",
       "projectName": "webtest3",
-      "projectPath": "C:\\Users\\Duy Cuong\\source\\repos\\webtest3\\webtest3\\webtest3.csproj",
+      "projectPath": "C:\\Users\\Duy Cuong\\source\\repos\\webtest2\\weblogin-addtablesql\\webtest3\\webtest3.csproj",
       "packagesPath": "C:\\Users\\Duy Cuong\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Duy Cuong\\source\\repos\\webtest3\\webtest3\\obj\\",
+      "outputPath": "C:\\Users\\Duy Cuong\\source\\repos\\webtest2\\weblogin-addtablesql\\webtest3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Duy Cuong\\AppData\\Roaming\\NuGet\\NuGet.Config",

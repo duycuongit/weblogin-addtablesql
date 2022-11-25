@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JIw4d2SBJMXs96QvjAU6FuoquP1H2FgaSNezfFawCU9zh+U/7aG4P8zh6TEQxPbKqPYNVq81lPtp2pmgj6jUhQ==",
+  "dgSpecHash": "N2BqXhxIkmYfqWgrl417BzeufLr3oEw4HK3Y0CZP/DqvN9rj5xzSXjK9EA6fznI/xTcg0ZEqpeRRRk2qWGohVw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Duy Cuong\\source\\repos\\webtest3\\webtest3\\webtest3.csproj",
+  "projectFilePath": "C:\\Users\\Duy Cuong\\source\\repos\\webtest2\\weblogin-addtablesql\\webtest3\\webtest3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Duy Cuong\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\3.1.31\\microsoft.aspnetcore.authentication.google.3.1.31.nupkg.sha512",
     "C:\\Users\\Duy Cuong\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.30\\microsoft.aspnetcore.cryptography.internal.3.1.30.nupkg.sha512",

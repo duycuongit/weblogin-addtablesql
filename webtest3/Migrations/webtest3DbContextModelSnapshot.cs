@@ -219,19 +219,22 @@ namespace webtest3.Migrations
                     b.ToTable("AspNetUsers");
                 });
 
-            modelBuilder.Entity("webtest3.Models.TestGV", b =>
+            modelBuilder.Entity("webtest3.Models.SV", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("Mssv")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("testGV");
+                    b.ToTable("testSV");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

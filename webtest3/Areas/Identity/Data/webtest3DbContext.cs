@@ -25,6 +25,6 @@ namespace webtest3.Data
             // Add your customizations after calling base.OnModelCreating(builder);
         }
 
-        public DbSet <TestGV> testGV { get; set; }
+        public DbSet <SV> testSV { get; set; }
     }
 }
