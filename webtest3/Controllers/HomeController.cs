@@ -10,7 +10,7 @@ using webtest3.Models;
 
 namespace webtest3.Controllers
 {
-    [Authorize]
+    [Authorize(Roles ="Admin")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -25,13 +25,14 @@ namespace webtest3.Controllers
             return View();
         }
 
+        [Authorize(Roles ="SuperAdmin")]
         public IActionResult Privacy()
         {
             //return View();
             return ViewComponent("MessagePage", new webtest3.Views.Shared.Components.MessagePage.MessagePage.Message
             {
                 title = "Thông báo quan trọng -  test component",
-                htmlcontent = "Đây là <strong>Nội dung HTML</strong>",
+                htmlcontent = "<strong>Ban la superadmin - co quyen truy cap</strong>",
                 secondwait = 5,
                 urlredirect = "/Home/Index"
             });
