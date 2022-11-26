@@ -15,13 +15,16 @@ namespace webtest3.Areas.Identity
     {
         public void Configure(IWebHostBuilder builder)
         {
-            builder.ConfigureServices((context, services) => {
+            builder.ConfigureServices((context, services) =>
+            {
                 services.AddDbContext<webtest3DbContext>(options =>
                     options.UseSqlServer(
                         context.Configuration.GetConnectionString("webtest3DbContextConnection")));
 
                 services.AddDefaultIdentity<webtest3User>(options => options.SignIn.RequireConfirmedAccount = false)
+                .AddRoles<IdentityRole>()
                     .AddEntityFrameworkStores<webtest3DbContext>();
+
             });
         }
     }

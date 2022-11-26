@@ -55,7 +55,7 @@ using webtest3.Areas.Identity.Pages.Account.Manage;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e6edb20e9dfca654fc2124afa3ad5a020a43751f", @"/Areas/Identity/Pages/Account/Manage/Email.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2eaa458527e62ed389d27a2d2e83cf3ed079688e", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"373feba3f22b5c7b594545b53ec5bd2272bcebd9", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"79b36ebfc8783aa4c9e32826e151d13faed7a575", @"/Areas/Identity/Pages/Account/_ViewImports.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"28b7157e71475965412c1e6652bf1a07f62f0319", @"/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml")]
     #nullable restore
